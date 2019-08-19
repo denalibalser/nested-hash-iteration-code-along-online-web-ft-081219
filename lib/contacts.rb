@@ -19,7 +19,7 @@ def remove_strawberry(contacts)
     if name == "Freddy Mercury"
       info.each do |category, items|
       if category == "favorite_ice_cream_flavors"
-        items.delete[-1]
+        items.delete[0]
       end
     end
   end
